@@ -52,22 +52,22 @@ public class BBCLogin {
 		Sheet sheet = wb.getSheet("sheet1");
 		
 		// Read rows and columns from the sheet
-		int rowsCount  = sheet.getLastRowNum();
+		int maxRowNumber = sheet.getLastRowNum() + 1;
 		Row row0 = sheet.getRow(0);
-		int columnsCount = row0.getLastCellNum();
-		System.out.println(rowsCount);
-		System.out.println(columnsCount);
+		int maxColumnNumber = row0.getLastCellNum();
+		System.out.println(maxRowNumber);
+		System.out.println(maxColumnNumber);
 		
 		DataFormatter formatter = new DataFormatter();
 		
-		String[][] testData = new String[rowsCount][columnsCount];
+		String[][] testData = new String[maxRowNumber + 1][maxColumnNumber + 1];
 		
-		for(int i = 1; i <= rowsCount ; i++){
-			for(int j = 0 ; j < columnsCount ; j++)	{
+		for(int i = 1; i <= maxRowNumber ; i++){
+			for(int j = 0 ; j < maxColumnNumber ; j++)	{
 				
-				testData[i-1][j] = formatter.formatCellValue(sheet.getRow(i).getCell(j));
+				testData[i][j] = formatter.formatCellValue(sheet.getRow(i).getCell(j));
 				
-				System.out.println(testData[i-1][j]);
+				System.out.println(testData[i][j]);
 			}
 		}
 		
