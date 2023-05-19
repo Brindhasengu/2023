@@ -19,7 +19,7 @@ public class RegressionTestSuite {
     static String firstName = "srikanth";
     static String title = "Mr";
     static String dobDay = "2  ";
-    static String dobMonth = "April ";
+    static String dobMonth = "April "; 
     static String dobYear = "2005  ";
     static String stateName = "Alaska";
 
