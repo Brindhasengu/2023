@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.By.ById;
 import org.openqa.selenium.WebElement;
 //import org.openqa.selenium;
-public class Alert {
+public class Alert { 
 
 	public Alert() {
 		// TODO Auto-generated constructor stub
