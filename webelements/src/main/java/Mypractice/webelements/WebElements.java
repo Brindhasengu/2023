@@ -17,10 +17,17 @@ public class WebElements {
 WebDriverManager.chromedriver().setup();
 ChromeDriver driver=new ChromeDriver();
 driver.get("https://www.bbc.co.uk/");
+
+// Find the seach button
 WebElement searchButton = driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div/header/nav/div[1]/div/div[3]/div[2]/a"));
+
+// Click the search button
 searchButton.click();
 
+//Find the search box
 WebElement searchbox = driver.findElement(By.id("search-input"));
+
+// Send Hi to the search box
 searchbox.sendKeys("Hi");
 
 //driver.findElement(By.ByXPath)
