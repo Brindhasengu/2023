@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author brind
+ *
+ */
+module Interfacepractice {
+}
