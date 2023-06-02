@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author mseng
+ *
+ */
+module javapracticea {
+}
