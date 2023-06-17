@@ -16,14 +16,30 @@ System.setProperty("webdriver.chrome.driver","c:\\brindha\\Chrome Driver\\Chrome
 WebDriver driver=new ChromeDriver();
 
 driver.manage().window().maximize();
+//get url one
 driver.get("https://www.vikatan.com/");
 Thread.sleep(2000);
+//Get URL 2
 driver.get("https://www.bbc.co.uk/");
+
 String url=driver.getCurrentUrl();
+
 System.out.println(driver.getTitle());
-//System.out.println((driver.getPageSource()));
-Thread.sleep(3000);
+
+System.out.println((driver.getPageSource()));
+
+Thread.sleep(1000);
+
+driver.navigate().back();
+Thread.sleep(1000);
+
+driver.navigate().forward();
+
+driver.navigate().refresh();
+
 //driver.quit();
+
+driver.close();
 /*
 WebElement signinButton = driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[1]/li[1]/a"));
 //click the login button
