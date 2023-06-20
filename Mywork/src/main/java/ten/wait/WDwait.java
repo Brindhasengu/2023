@@ -31,9 +31,16 @@ public class WDwait {
 		
 		
 		WebElement Email= driver.findElement(By.id("email"));  
-		WebElement password= driver.findElement(By.id("pass"));  
+		WebElement password= driver.findElement(By.id("pass")); 
+		
+		//Sendkeys
 		sendKeys(driver, Email, 10, "brindhasengu@gmail.com");  
-		sendKeys(driver, password,10, "Omga1234!") ; 
+		sendKeys(driver, password,10, "xx") ;
+		
+		//click login
+		WebElement login=driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button"));
+		login.click();
+		
 		driver.findElement(By.linkText("Forgotten account?"));  
 		//clickOn(driver,forgotAccount, 10);  
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);  
