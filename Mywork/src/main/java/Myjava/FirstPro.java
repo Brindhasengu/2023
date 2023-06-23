@@ -12,6 +12,7 @@ FirstPro pro=new FirstPro();
 pro.add();
 pro.subtract();
 	}
+	 
 public void add() 
 {
 	int no1=18,no2=20;
