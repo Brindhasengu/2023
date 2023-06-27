@@ -2,7 +2,10 @@ package Myjava;
 
 public class MethodOverLoading 
 {
-public int MethodOveLoading(int X,int y) {return(X+y);}
+public int MethodOveLoading(int X,int y)
+{
+	return(X+y);
+	}
 public int MethodOverLoading(int X,int Y,int Z)
 {
 	return(X+Y+Z);
