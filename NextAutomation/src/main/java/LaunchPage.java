@@ -1,5 +1,6 @@
 
 import java.util.List;
+
 import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ById;
@@ -25,9 +26,11 @@ driver.manage().window().maximize();
 
 driver.get("https://www.next.co.uk/");
 Thread.sleep(3000);
+
 WebElement AcceptAll=driver.findElement(By.id("onetrust-accept-btn-handler"));
 AcceptAll.click();
 
+/*
 // Search for mens jeans
 WebElement searchbox = driver.findElement(By.id("header-big-screen-search-box"));
 searchbox.sendKeys("Men Jenes");
@@ -72,6 +75,8 @@ Thread.sleep(2000);
 //System.out.println(searchBox1);
 
 //System.out.println(searchBox2);
+  
+ */
 	}
 
 }
