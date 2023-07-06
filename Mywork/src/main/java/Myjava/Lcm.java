@@ -9,7 +9,7 @@ public class Lcm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-int no1= 3;
+int no1= 2;
 int no2= 5;
 int result= no1*no2;
 

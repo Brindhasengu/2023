@@ -13,10 +13,10 @@ import java.util.concurrent.TimeUnit;
 public class RegressionTestSuite {
     //Test Data
     static String baseURL = "http://automationpractice.com/index.php";
-    static String email1 = "srikanth123@gmail.com";
-    static String email2 = "srikanth@gmail.com";
-    static String email3 = "srikanth@gmail.com";
-    static String firstName = "srikanth";
+    static String email1 = "srikrishna@gmail.com";
+    static String email2 = "srikrishna@gmail.com";
+    static String email3 = "srikrishna@gmail.com";
+    static String firstName = "srikrishna";
     static String title = "Mr";
     static String dobDay = "2  ";
     static String dobMonth = "April "; 
