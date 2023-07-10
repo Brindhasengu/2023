@@ -1,4 +1,4 @@
-package Myjava;
+package myjava;
 
 public class School {
 String name;

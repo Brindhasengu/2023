@@ -1,4 +1,4 @@
-package Myjava;
+package myjava;
 import java.util.*;  
 public class Swap {
 
