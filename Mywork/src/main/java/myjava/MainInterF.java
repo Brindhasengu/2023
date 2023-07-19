@@ -10,6 +10,8 @@ public class MainInterF {
 		// TODO Auto-generated method stub
 		InterClass m =new InterClass();
 		m.method1();
+		m.method2();
+		m.method3();
 	}
 
 }
