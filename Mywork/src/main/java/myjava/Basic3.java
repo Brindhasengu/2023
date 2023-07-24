@@ -15,8 +15,8 @@ public class Basic3 {
 		      String [] names = {"Muthu", "kavi", "Anna", "john"};
 
 		      for( String name : names ) {
-		         System.out.print( name );
-		         System.out.print(",");
+		         System.out.println( name );
+		        //System.out.print(",");
 		      }
 		   }
 		   }
