@@ -1,18 +1,25 @@
 package Mywork;
-
-import java.io.*;
 public class InterTestClass implements Inter1 {
 
-	public JavaFirst() {
-		// TODO Auto-generated constructor stub
-	}
+	//public InterTestClass() {
+		
+	// Driver Code
+    public static void main(String[] args) {
+        InterTestClass t = new InterTestClass();
+        t.display();
+        System.out.println(a);
+    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("This is java basic programme");
-	}
-
-}
-
+			
+			   
+		    
+		    // interface.
+		    public void display(){
+		      System.out.println("This is interface");
+		    }
+		 
+		    
+		}
+	
 
 
