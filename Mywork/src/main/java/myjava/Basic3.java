@@ -8,7 +8,7 @@ public class Basic3 {
 		      int [] numbers = {10, 20, 30, 40, 50};
 
 		      for(int x : numbers ) {
-		         System.out.print( x );
+		         System.out.println( x );
 		         System.out.print(",");
 		      }
 		      System.out.print("\n");
