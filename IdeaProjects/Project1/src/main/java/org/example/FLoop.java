@@ -13,7 +13,7 @@ public class FLoop {
        String[] names= {"Kavi","Kathir","Ammu","Anbu","nirai"};
        for(String name:names){
            System.out.println(name);
-          //
+
 
 
 

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="If else" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="If else">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ForExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,9 +132,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.IfElseClass" />
+        <item itemvalue="Application.FLoop" />
         <item itemvalue="Application.IfGrade" />
         <item itemvalue="Application.ScaClass" />
-        <item itemvalue="Application.FLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691251937993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="If else">
+      <created>1691252182278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691252182278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

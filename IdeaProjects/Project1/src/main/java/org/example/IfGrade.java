@@ -7,7 +7,8 @@ public class IfGrade {
         int marks;
 
         System.out.println("Enter your Marks :");
-        Scanner scanner =new Scanner(System.in);
+        Scanner
+                =new Scanner(System.in);
         marks = scanner.nextInt();
 
         if (marks >= 70) {
