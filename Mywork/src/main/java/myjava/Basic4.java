@@ -8,7 +8,7 @@ public class Basic4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int a=10;
+int a=5;
 int b=9;
 int c= minFunction(a,b);
 System.out.println("Minimum=" + c);

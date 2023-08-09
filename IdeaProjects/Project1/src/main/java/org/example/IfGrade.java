@@ -7,23 +7,20 @@ public class IfGrade {
         int marks;
 
         System.out.println("Enter your Marks :");
-        Scanner
-                =new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
         marks = scanner.nextInt();
 
         if (marks >= 70) {
             System.out.println("your grade is distinction");
-        }
-
-           else if (marks >= 60) {
+        } else if (marks >= 60) {
             System.out.println("your grade is First Class");
-        }
-                else if (marks>=50){
-                System.out.println("your grade is pass");
-            }
+        } else if (marks >= 50) {
+            System.out.println("your grade is pass");
 
 
-            }
-        }
+    }
+      }
+   }
 
 

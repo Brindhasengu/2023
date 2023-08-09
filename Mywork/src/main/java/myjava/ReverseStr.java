@@ -1,8 +1,8 @@
 package myjava;
 
-public class Basic5 {
+public class ReverseStr {
 
-	public Basic5() {
+	public ReverseStr() {
 		// TODO Auto-generated constructor stub
 	}
 
