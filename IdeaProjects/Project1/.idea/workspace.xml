@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="If else">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IfElseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TextLenCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IfElseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IfElseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mywork/src/main/java/myjava/Basic4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mywork/src/main/java/myjava/Basic4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mywork/src/main/java/myjava/Basic5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mywork/src/main/java/myjava/ReverseStr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IfElseTest">
+  <component name="RunManager" selected="Application.TextLenCount">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -125,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScaClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ScaClass" />
+    <configuration name="TextLenCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TextLenCount" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -141,18 +134,18 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.IfElseTest" />
+      <item itemvalue="Application.TextLenCount" />
       <item itemvalue="Application.IfElseClass" />
       <item itemvalue="Application.FLoop" />
       <item itemvalue="Application.IfGrade" />
-      <item itemvalue="Application.ScaClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextLenCount" />
         <item itemvalue="Application.IfElseTest" />
         <item itemvalue="Application.IfElseClass" />
         <item itemvalue="Application.IfGrade" />
         <item itemvalue="Application.FLoop" />
-        <item itemvalue="Application.ScaClass" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691440966440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="If else">
+      <created>1691575231362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691575231362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
