@@ -11,6 +11,7 @@ public class IfGrade {
         Scanner scanner = new Scanner(System.in);
         marks = scanner.nextInt();
 
+
         if (marks >= 70) {
             System.out.println("your grade is distinction");
         } else if (marks >= 60) {

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="If else">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TextLenCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SwitchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +59,10 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextLenCount">
+  <component name="RunManager" selected="Application.SwitchCase">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FLoop" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SwitchCase" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextLenCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TextLenCount" />
       <module name="Project1" />
@@ -134,18 +135,18 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.IfElseTest" />
+      <item itemvalue="Application.SwitchCase" />
       <item itemvalue="Application.TextLenCount" />
       <item itemvalue="Application.IfElseClass" />
-      <item itemvalue="Application.FLoop" />
       <item itemvalue="Application.IfGrade" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchCase" />
+        <item itemvalue="Application.IfGrade" />
         <item itemvalue="Application.TextLenCount" />
         <item itemvalue="Application.IfElseTest" />
         <item itemvalue="Application.IfElseClass" />
-        <item itemvalue="Application.IfGrade" />
-        <item itemvalue="Application.FLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691575231362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="If else">
+      <created>1691595794529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691595794529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
