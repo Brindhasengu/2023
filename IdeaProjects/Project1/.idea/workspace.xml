@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="If else">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Switch case">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DowhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Str.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WhileLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IfGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IfGrade.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchCase">
+  <component name="RunManager" selected="Application.Str">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -67,21 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IfElseClass" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IfElseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IfElseTest" />
+    <configuration name="DowhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DowhileLoop" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -106,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Str" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SwitchCase" />
       <module name="Project1" />
@@ -119,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextLenCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TextLenCount" />
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WhileLoop" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.IfElseTest" />
+      <item itemvalue="Application.DowhileLoop" />
+      <item itemvalue="Application.Str" />
       <item itemvalue="Application.SwitchCase" />
-      <item itemvalue="Application.TextLenCount" />
-      <item itemvalue="Application.IfElseClass" />
+      <item itemvalue="Application.WhileLoop" />
       <item itemvalue="Application.IfGrade" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Str" />
+        <item itemvalue="Application.DowhileLoop" />
+        <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.IfGrade" />
-        <item itemvalue="Application.TextLenCount" />
-        <item itemvalue="Application.IfElseTest" />
-        <item itemvalue="Application.IfElseClass" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691595794529</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Switch case">
+      <created>1691685888966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691685888966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,10 +216,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="If else" />
-    <option name="LAST_COMMIT_MESSAGE" value="If else" />
+    <MESSAGE value="Switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch case" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project1$WhileLoop.ic" NAME="WhileLoop Coverage Results" MODIFIED="1691691177438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
