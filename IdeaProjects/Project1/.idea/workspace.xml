@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Switch case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DowhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Str.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strlength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Str">
+  <component name="RunManager" selected="Application.Strlength">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -79,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IfGrade" />
+    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Str" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Str" />
+    <configuration name="Strlength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strlength" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -135,17 +132,17 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Application.DowhileLoop" />
       <item itemvalue="Application.Str" />
+      <item itemvalue="Application.Strlength" />
       <item itemvalue="Application.SwitchCase" />
       <item itemvalue="Application.WhileLoop" />
-      <item itemvalue="Application.IfGrade" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strlength" />
         <item itemvalue="Application.Str" />
         <item itemvalue="Application.DowhileLoop" />
         <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.IfGrade" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691685888966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Switch case">
+      <created>1691847812960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691847812960</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
