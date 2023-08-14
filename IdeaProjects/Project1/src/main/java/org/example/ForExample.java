@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ForExample {
     public void Test(){
         int i=1;
-        for (i=1;i<5;i++){
+        for (i=1;i<=5;i++){
 
             int marks;
             System.out.println("Enter your Marks :");

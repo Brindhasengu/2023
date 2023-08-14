@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Switch case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strlength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/For3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SimDoWhlile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StrLenExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/vowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Strlength">
+  <component name="RunManager" selected="Application.vowels">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -63,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DowhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DowhileLoop" />
+    <configuration name="For3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.For3" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Str" />
+    <configuration name="IfElseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.IfElseClass" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strlength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Strlength" />
+    <configuration name="SimDoWhlile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SimDoWhlile" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SwitchCase" />
+    <configuration name="StrLenExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.StrLenExample" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WhileLoop" />
+    <configuration name="vowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.vowels" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +135,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.DowhileLoop" />
-      <item itemvalue="Application.Str" />
-      <item itemvalue="Application.Strlength" />
-      <item itemvalue="Application.SwitchCase" />
-      <item itemvalue="Application.WhileLoop" />
+      <item itemvalue="Application.For3" />
+      <item itemvalue="Application.IfElseClass" />
+      <item itemvalue="Application.SimDoWhlile" />
+      <item itemvalue="Application.vowels" />
+      <item itemvalue="Application.StrLenExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Strlength" />
-        <item itemvalue="Application.Str" />
-        <item itemvalue="Application.DowhileLoop" />
-        <item itemvalue="Application.WhileLoop" />
-        <item itemvalue="Application.SwitchCase" />
+        <item itemvalue="Application.vowels" />
+        <item itemvalue="Application.For3" />
+        <item itemvalue="Application.SimDoWhlile" />
+        <item itemvalue="Application.IfElseClass" />
+        <item itemvalue="Application.StrLenExample" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691847812960</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Switch case">
+      <created>1691849632302</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691849632302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
