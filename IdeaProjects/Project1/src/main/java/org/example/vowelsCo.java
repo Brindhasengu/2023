@@ -1,6 +1,6 @@
 package org.example;
 
-public class vowels {
+public class vowelsCo {
     public static void main(String[] args) {
         String mystr= "Krishna";
         int count = 0;
