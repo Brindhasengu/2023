@@ -4,6 +4,9 @@ public class MyVow {
     public static void main(String[] args) {
         int aCount=0;
         int eCount=0;
+        int iCount=0;
+        int oCount=0;
+        int uCount=0;
 
         String word="education";
         for(int i=0;i < word.length();i++)
