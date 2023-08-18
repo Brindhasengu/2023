@@ -6,14 +6,8 @@ public class PVowels {
         for(int i=0;i<word.length();i++)
             {
                 char ch = word.charAt(i);
-                switch(ch) {
-
-                    case 'a':
-                    case 'e':
-                    case 'i':
-                    case 'o':
-                    case 'u':
-                        System.out.println(ch);
+                switch (ch) {
+                    case 'a', 'e', 'i', 'o', 'u' -> System.out.println(ch);
                 }
                 }
         }
