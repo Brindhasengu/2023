@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="MyPrac">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Calculator.class" afterDir="false" />
-    </list>
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="MyArray" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692552765852</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MyArray">
+      <created>1692553463459</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692553463459</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +315,8 @@
     <MESSAGE value="My" />
     <MESSAGE value="Array" />
     <MESSAGE value="MyPrac" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyPrac" />
+    <MESSAGE value="MyArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
