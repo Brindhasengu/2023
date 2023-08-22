@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="MoL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyPm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Business" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692626277574</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Business">
+      <created>1692727015972</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692727015972</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +353,8 @@
     <MESSAGE value="MyArray" />
     <MESSAGE value="Calculator" />
     <MESSAGE value="MoL" />
-    <option name="LAST_COMMIT_MESSAGE" value="MoL" />
+    <MESSAGE value="Business" />
+    <option name="LAST_COMMIT_MESSAGE" value="Business" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
