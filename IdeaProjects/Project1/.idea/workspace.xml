@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Business" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="MyArray" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Business">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -61,34 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Business" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Business" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Calculator" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MoL" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -126,21 +100,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PUpper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PUpper" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PVowels" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.Business" />
-      <item itemvalue="Application.MoL" />
       <item itemvalue="Application.MyPrac" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.My" />
+      <item itemvalue="Application.PUpper" />
+      <item itemvalue="Application.PVowels" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Business" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.MyPrac" />
         <item itemvalue="Application.My" />
-        <item itemvalue="Application.MoL" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.PUpper" />
+        <item itemvalue="Application.PVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -293,42 +293,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692553463459</updated>
     </task>
-    <task id="LOCAL-00021" summary="Calculator">
-      <created>1692553533011</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1692553533011</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Calculator">
-      <created>1692553554178</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1692553554178</updated>
-    </task>
-    <task id="LOCAL-00023" summary="MoL">
-      <created>1692626232729</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1692626232729</updated>
-    </task>
-    <task id="LOCAL-00024" summary="MoL">
-      <created>1692626277574</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1692626277574</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Business">
-      <created>1692727015972</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1692727015972</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,10 +316,7 @@
     <MESSAGE value="Array" />
     <MESSAGE value="MyPrac" />
     <MESSAGE value="MyArray" />
-    <MESSAGE value="Calculator" />
-    <MESSAGE value="MoL" />
-    <MESSAGE value="Business" />
-    <option name="LAST_COMMIT_MESSAGE" value="Business" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
