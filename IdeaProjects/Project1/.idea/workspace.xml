@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="StaticDemo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Child1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parent1.java" afterDir="false" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Child1.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CcSc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Child1">
+  <component name="RunManager" selected="Application.CcSc">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Child1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Child1" />
+    <configuration name="CcSc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CcSc" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MyPrac" />
+    <configuration name="Child1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Child1" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -132,19 +131,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.CcSc" />
       <item itemvalue="Application.Child1" />
       <item itemvalue="Application.Parent1" />
       <item itemvalue="Application.StaticDemo" />
       <item itemvalue="Application.Business" />
-      <item itemvalue="Application.MyPrac" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CcSc" />
         <item itemvalue="Application.Child1" />
         <item itemvalue="Application.Parent1" />
         <item itemvalue="Application.StaticDemo" />
         <item itemvalue="Application.Business" />
-        <item itemvalue="Application.MyPrac" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692911744882</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Child1.java">
+      <created>1693049817194</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1693049817194</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Child1.java">
+      <created>1693049850111</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1693049850111</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -390,7 +403,8 @@
     <MESSAGE value="MoL" />
     <MESSAGE value="Business" />
     <MESSAGE value="StaticDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="StaticDemo" />
+    <MESSAGE value="Child1.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Child1.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
