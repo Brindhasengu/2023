@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="GChild.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Fina1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Fina2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Abstra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Abstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fina1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fina1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +58,9 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fina2">
-    <configuration name="App" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CcSc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CcSc" />
+  <component name="RunManager" selected="Application.Abstra">
+    <configuration name="Abstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Abstra" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -74,6 +68,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Project1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.Abstra" />
       <item itemvalue="Application.Fina1" />
       <item itemvalue="Application.Fina2" />
       <item itemvalue="Application.GChild" />
       <item itemvalue="Application.GrandP" />
-      <item itemvalue="Application.CcSc" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fina2" />
+        <item itemvalue="Application.Abstra" />
         <item itemvalue="Application.Fina1" />
+        <item itemvalue="Application.Fina2" />
         <item itemvalue="Application.GChild" />
         <item itemvalue="Application.GrandP" />
-        <item itemvalue="Application.CcSc" />
       </list>
     </recent_temporary>
   </component>
