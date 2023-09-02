@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="GChild.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Abstra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Abstra.java" afterDir="false" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Abstra.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExceptH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExceptH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fina1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fina1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Abstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Abstra.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExceptH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExceptH" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fina1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Fina1" />
       <module name="Project1" />
@@ -118,34 +131,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrandP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GrandP" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Abstra" />
+      <item itemvalue="Application.ExceptH" />
       <item itemvalue="Application.Fina1" />
       <item itemvalue="Application.Fina2" />
       <item itemvalue="Application.GChild" />
-      <item itemvalue="Application.GrandP" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Abstra" />
+        <item itemvalue="Application.ExceptH" />
         <item itemvalue="Application.Fina1" />
         <item itemvalue="Application.Fina2" />
         <item itemvalue="Application.GChild" />
-        <item itemvalue="Application.GrandP" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +382,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693310756507</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Abstra.java">
+      <created>1693573535720</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1693573535720</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Abstra.java">
+      <created>1693573568990</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1693573568990</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Abstra.java">
+      <created>1693573665659</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1693573665659</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -422,7 +443,8 @@
     <MESSAGE value="Child1.java" />
     <MESSAGE value="CcSc.java" />
     <MESSAGE value="GChild.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="GChild.java" />
+    <MESSAGE value="Abstra.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstra.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
