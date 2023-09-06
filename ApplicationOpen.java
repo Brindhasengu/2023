@@ -1,6 +1,6 @@
 public class ApplicationOpen {
     public static void main(String[] args) {
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver() ;
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
         driver.get("https://www.bbc.co.uk/");
