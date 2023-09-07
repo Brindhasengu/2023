@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Abstra.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmployeeRules.java" afterDir="false" />
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Employee.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -405,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693573665659</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Employee.java">
+      <created>1693930327366</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1693930327367</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -446,7 +449,8 @@
     <MESSAGE value="CcSc.java" />
     <MESSAGE value="GChild.java" />
     <MESSAGE value="Abstra.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstra.java" />
+    <MESSAGE value="Employee.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
