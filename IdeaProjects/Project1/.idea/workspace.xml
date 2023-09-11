@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Employee.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/LaunchBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MyContactForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/NewAi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mywork/src/main/java/eight/elements/TestWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mywork/src/main/java/eight/elements/TestWebElements.java" afterDir="false" />
-    </list>
+    <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Employee.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -422,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693930327367</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Employee.java">
+      <option name="closed" value="true" />
+      <created>1694458356509</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1694458356509</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
