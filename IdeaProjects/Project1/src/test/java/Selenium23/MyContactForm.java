@@ -20,6 +20,11 @@ driver.manage().window().maximize();
         WebElement sampleForms = driver.findElement(By.xpath("//*[@id=\"header\"]/ul/li[6]/a"));
         sampleForms.click();
 
+
+        // Checkbox for marketing dept
+        WebElement addressToCheckbox = driver.findElement(By.xpath("/html/body/div[3]/div[3]/form/table/tbody/tr[1]/td/div/input[1]"));
+        addressToCheckbox.click();
+
         //Sub
 WebElement subjectInput= driver.findElement(By.id("subject"));
 subjectInput.sendKeys("SubjectHere");
@@ -70,6 +75,47 @@ subjectInput.sendKeys("SubjectHere");
 
         //dropdown select countries
         Select Countries = new Select(driver.findElement(By.id("q9")));
-        Countries.selectByVisibleText("Bel");
+        Countries.selectByVisibleText("Belgium");
+//pc
+        // drop down select Title
+        Select title = new Select(driver.findElement(By.name("q11_title")));
+        title.selectByVisibleText("Mrs.");
+        //Firstname
+        WebElement Firstname=  driver.findElement(By.name("q11_first"));
+       Firstname.sendKeys("sengu");
+
+        WebElement Lastname=  driver.findElement(By.name("q11_last"));
+       Lastname.sendKeys("Sen");
+
+       //Select  DOB
+        Select month = new Select(driver.findElement(By.name("q12_month")));
+      month.selectByVisibleText("9");
+      //Day
+        Select day = new Select(driver.findElement(By.name("q12_day")));
+        day.selectByVisibleText("9");
+        //year
+        Select year = new Select(driver.findElement(By.name("q12_year")));
+        year.selectByVisibleText("2000");
+
+        // Click choose file
+        //WebElement chooseFileButton =  driver.findElement(By.name("attach4589"));
+        //chooseFileButton.click();
+
+        driver.findElement(By.id("attach4589")).sendKeys("c://temp//test.txt");
+        //driver.findElement(By.name("file-submit")).submit();
+
+        Thread.sleep(10000);
+
+        WebElement submitButton = driver.findElement(By.name("submit"));
+submitButton.click();
+
+       /*if(driver.getPageSource().contains("File Uploaded!")) {
+            System.out.println("file uploaded");
+        }
+        else{
+            System.out.println("file not uploaded");
+        }
+
+        */
     }
 }
