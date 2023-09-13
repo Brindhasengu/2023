@@ -25,7 +25,7 @@ driver.manage().window().maximize();
         WebElement addressToCheckbox = driver.findElement(By.xpath("/html/body/div[3]/div[3]/form/table/tbody/tr[1]/td/div/input[1]"));
         addressToCheckbox.click();
 
-        //Sub
+        //choose Sub
 WebElement subjectInput= driver.findElement(By.id("subject"));
 subjectInput.sendKeys("SubjectHere");
 
@@ -66,8 +66,6 @@ subjectInput.sendKeys("SubjectHere");
                 Datepicker.sendKeys("11-09-2023");
          //select countries
         Select countriesdropdown = new Select(driver.findElement(By.id("q8")));
-        //
-
 
         //dropdown pre defined US State
         Select USstate = new Select(driver.findElement(By.id("q8")));
@@ -97,7 +95,7 @@ subjectInput.sendKeys("SubjectHere");
         Select year = new Select(driver.findElement(By.name("q12_year")));
         year.selectByVisibleText("2000");
 
-        // Click choose file
+        // Click choose file and Attached
         //WebElement chooseFileButton =  driver.findElement(By.name("attach4589"));
         //chooseFileButton.click();
 
