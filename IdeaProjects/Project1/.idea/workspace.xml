@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ifelse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReversePC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium23/MyContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MyContactForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +63,23 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ifelse">
+  <component name="RunManager" selected="Application.Binary">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Binary" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lcm" />
+    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MyArray" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -110,21 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyVow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MyVow" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PVowels" />
+    <configuration name="ReversePC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ReversePC" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +138,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.Binary" />
       <item itemvalue="Application.Ifelse" />
+      <item itemvalue="Application.MyArray" />
       <item itemvalue="Application.MyContactForm" />
-      <item itemvalue="Application.Lcm" />
-      <item itemvalue="Application.MyVow" />
-      <item itemvalue="Application.PVowels" />
+      <item itemvalue="Application.ReversePC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.ReversePC" />
+        <item itemvalue="Application.MyArray" />
         <item itemvalue="Application.Ifelse" />
         <item itemvalue="Application.MyContactForm" />
-        <item itemvalue="Application.PVowels" />
-        <item itemvalue="Application.MyVow" />
-        <item itemvalue="Application.Lcm" />
       </list>
     </recent_temporary>
   </component>
