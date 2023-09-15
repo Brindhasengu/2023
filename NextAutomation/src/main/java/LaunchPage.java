@@ -27,8 +27,8 @@ driver.manage().window().maximize();
 driver.get("https://www.next.co.uk/");
 Thread.sleep(3000);
 
-WebElement AcceptAll=driver.findElement(By.id("onetrust-accept-btn-handler"));
-AcceptAll.click();
+
+
 
 /*
 // Search for mens jeans
