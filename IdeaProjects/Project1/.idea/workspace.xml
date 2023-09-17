@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/while1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/ExcelReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/For2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Whileme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MyLounch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NextAutomation/src/main/java/LaunchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NextAutomation/src/main/java/LaunchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium23/LaunchBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium23/LaunchBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/LaunchBrowser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.while1">
+  <component name="RunManager" selected="Application.For2">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -73,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Binary" />
+    <configuration name="For2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.For2" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium23.ExcelReading" />
+    <configuration name="LaunchBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.LaunchBrowser" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MyArray" />
+    <configuration name="MyLounch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.MyLounch" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Selenium23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ReversePC" />
+    <configuration name="Whileme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Whileme" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -140,19 +140,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.For2" />
+      <item itemvalue="Application.LaunchBrowser" />
+      <item itemvalue="Application.MyLounch" />
+      <item itemvalue="Application.Whileme" />
       <item itemvalue="Application.while1" />
-      <item itemvalue="Application.Binary" />
-      <item itemvalue="Application.ExcelReading" />
-      <item itemvalue="Application.MyArray" />
-      <item itemvalue="Application.ReversePC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.For2" />
+        <item itemvalue="Application.MyLounch" />
+        <item itemvalue="Application.LaunchBrowser" />
+        <item itemvalue="Application.Whileme" />
         <item itemvalue="Application.while1" />
-        <item itemvalue="Application.ExcelReading" />
-        <item itemvalue="Application.Binary" />
-        <item itemvalue="Application.ReversePC" />
-        <item itemvalue="Application.MyArray" />
       </list>
     </recent_temporary>
   </component>
@@ -485,11 +485,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PVowels.java</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Selenium23/LaunchBrowser.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
