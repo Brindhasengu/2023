@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PCfor4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MyNext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Myfor4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium23/ExcelReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium23/ExcelReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium23/MyLounch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MyLounch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ExcelReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/ExcelReading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyLounch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/MyLounch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyNext">
+  <component name="RunManager" selected="Application.Myfor4">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -126,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PCfor4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PCfor4" />
+    <configuration name="Myfor4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Myfor4" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -144,16 +139,16 @@
       <item itemvalue="Application.ExcelReading" />
       <item itemvalue="Application.MyContactForm" />
       <item itemvalue="Application.MyNext" />
-      <item itemvalue="Application.PCfor4" />
+      <item itemvalue="Application.Myfor4" />
       <item itemvalue="Application.MyLounch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Myfor4" />
         <item itemvalue="Application.MyNext" />
         <item itemvalue="Application.MyContactForm" />
         <item itemvalue="Application.MyLounch" />
         <item itemvalue="Application.ExcelReading" />
-        <item itemvalue="Application.PCfor4" />
       </list>
     </recent_temporary>
   </component>
