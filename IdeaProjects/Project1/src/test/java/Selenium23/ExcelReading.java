@@ -42,13 +42,28 @@ public class ExcelReading {
         String[][] testData = new String[rowsCount][columnsCount];
 
         for(int i = 0; i < rowsCount ; i++){
+            System.out.println(" ");
             for(int j = 0 ; j < columnsCount ; j++)	{
                 Cell temp = sheet.getRow(i).getCell(j);
                 testData[i][j] = formatter.formatCellValue(temp);
 
-                System.out.println(testData[i][j]);
+                String paddedData = padRightSpace(testData[i][j], 10);
+                System.out.print( paddedData);
             }
         }
 
+    }
+
+    public static String padRightSpace(String inputString, int length) {
+        if (inputString.length() >= length) {
+            return inputString;
+        }
+        StringBuilder sb = new StringBuilder();
+        while (sb.length() < length - inputString.length()) {
+            sb.append(' ');
+        }
+        sb.append(inputString);
+
+        return sb.toString();
     }
 }
