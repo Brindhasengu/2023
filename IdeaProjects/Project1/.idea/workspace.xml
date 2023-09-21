@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Myfor4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium23/Alert2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,20 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Myfor4">
+  <component name="RunManager" selected="Application.Alert2">
+    <configuration name="Alert2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.Alert2" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -84,19 +97,6 @@
     </configuration>
     <configuration name="MyContactForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Selenium23.MyContactForm" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLounch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium23.MyLounch" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +136,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.Alert2" />
       <item itemvalue="Application.ExcelReading" />
       <item itemvalue="Application.MyContactForm" />
       <item itemvalue="Application.MyNext" />
       <item itemvalue="Application.Myfor4" />
-      <item itemvalue="Application.MyLounch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alert2" />
+        <item itemvalue="Application.ExcelReading" />
         <item itemvalue="Application.Myfor4" />
         <item itemvalue="Application.MyNext" />
         <item itemvalue="Application.MyContactForm" />
-        <item itemvalue="Application.MyLounch" />
-        <item itemvalue="Application.ExcelReading" />
       </list>
     </recent_temporary>
   </component>
