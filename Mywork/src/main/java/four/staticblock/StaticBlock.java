@@ -15,3 +15,8 @@ static
 	System.out.println("Static block can execute without main method");
 }
 }
+
+
+
+
+

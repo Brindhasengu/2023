@@ -26,8 +26,8 @@ public class Alert2 {
             driver.findElement(By.name("cusid")).sendKeys("38327463");
             driver.findElement(By.name("submit")).submit();    //click();
             Thread.sleep(3000);
-            driver.switchTo().alert().dismiss();
-//        driver.switchTo().alert().accept();
+           // driver.switchTo().alert().dismiss();
+        driver.switchTo().alert().accept();
 
         }
 
