@@ -6,45 +6,39 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 public class MouseAct {
-
-
-
-            public static void main(String[] args) throws InterruptedException {
-//        WebDriverManager.chromedriver().setup();
-//        WebDriver driver = new ChromeDriver();
-
-            WebDriver driver = new ChromeDriver();
-            driver.manage().window().maximize();
-
-            driver.get("https://www.automationtestinginsider.com/2019/08/textarea-textarea-element-defines-multi.html");
-            driver.manage().window().maximize();
-            Thread.sleep(5000);
-
-            WebElement move = driver.findElement(By.id("windowhandling1"));
-            WebElement move2 = driver.findElement(By.name("list_box_name[]"));
-            WebElement dblclick = driver.findElement(By.id("doubleClickBtn"));
+    public static void main(String[] args) throws InterruptedException {
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.automationtestinginsider.com/2019/08/textarea-textarea-element-defines-multi.html");
+        driver.manage().window().maximize();
+        Thread.sleep(1000);
+        WebElement move = driver.findElement(By.id("windowhandling1"));
+        WebElement move2 = driver.findElement(By.name("list_box_name[]"));
+        WebElement dblclick = driver.findElement(By.id("doubleClickBtn"));
         WebElement rightclick = driver.findElement(By.id("rightClickBtn"));
+        Actions act = new Actions(driver);
+        act.doubleClick(dblclick).build().perform();
 
-
-            Actions act = new Actions(driver);
-
-		act.doubleClick(dblclick).build().perform();
+        //Accept alert
+        Thread.sleep(200);
+        driver.switchTo().alert().accept();
 
 		act.moveToElement(move).doubleClick(dblclick).build().perform();
+        driver.switchTo().alert().accept();
+
         act.moveToElement(move2).doubleClick(dblclick).build().perform();
-       act.doubleClick(dblclick).build().perform();
+        driver.switchTo().alert().accept();
 
-            WebElement email = driver.findElement(By.id("email"));
+        act.doubleClick(dblclick).build().perform();
 
-            WebElement right = driver.findElement(By.id("rightClickBtn"));
+        WebElement email = driver.findElement(By.id("email"));
+        WebElement right = driver.findElement(By.id("rightClickBtn"));
 
+        //act.contextClick(email).build().perform();
+        //Thread.sleep(8000);
 
-            act.contextClick(email).build().perform();
-            Thread.sleep(8000);
-
-            act.contextClick(right).build().perform();
-            Thread.sleep(8000);
-
+        //act.contextClick(right).build().perform();
+        //Thread.sleep(8000);
         }
     }
 
