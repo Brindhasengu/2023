@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Se/SelectItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Se/VariousBrowsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/Test2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Se/Proj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/Test1Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium23/MouseAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium23/MouseAct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ImplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/ImplicitWait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MouseAct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium23/MouseAct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/Alert1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/Alert2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/AnnaExcelreading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ExcelReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ImplicitWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/KeyboardActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MouseAct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyLounch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyNext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/NewAi.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Brindha/Repos/2023/IdeaProjects/Project1/src/test/resources/Feature&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -72,7 +80,7 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Test1 (2)">
+  <component name="RunManager" selected="TestNG.Test1Runner">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -80,17 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Test1 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/Test1.Feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Proj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Se.Proj" />
       <module name="Project1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test1" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Se.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +107,7 @@
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: Test1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -116,13 +120,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Test2 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user check functionality of application" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/Test2.Feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test2" />
+      <option name="NAME_FILTER" value="^user check functionality of application$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user check functionality of application$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user check functionality of application" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -134,57 +139,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Test2 (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/Test2.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test2" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="stepdefinition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinition.Test1" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Test2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Test2.Feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Test1Runner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test2" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="stepdefinition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinition.Test1Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Cucumber Java.Feature: Test1 (1)" />
+      <item itemvalue="Application.Proj" />
+      <item itemvalue="Cucumber Java.Scenario: user check functionality of application" />
       <item itemvalue="Cucumber Java.Feature: Test1 (2)" />
-      <item itemvalue="Cucumber Java.Feature: Test2" />
-      <item itemvalue="Cucumber Java.Feature: Test2 (1)" />
-      <item itemvalue="Cucumber Java.Feature: Test2 (2)" />
+      <item itemvalue="TestNG.Test1Runner" />
+      <item itemvalue="TestNG.Test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test1Runner" />
+        <item itemvalue="TestNG.Test1" />
         <item itemvalue="Cucumber Java.Feature: Test1 (2)" />
-        <item itemvalue="Cucumber Java.Feature: Test1 (1)" />
-        <item itemvalue="Cucumber Java.Feature: Test2 (2)" />
-        <item itemvalue="Cucumber Java.Feature: Test2 (1)" />
-        <item itemvalue="Cucumber Java.Feature: Test2" />
+        <item itemvalue="Cucumber Java.Scenario: user check functionality of application" />
+        <item itemvalue="Application.Proj" />
       </list>
     </recent_temporary>
   </component>
