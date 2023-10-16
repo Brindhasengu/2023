@@ -53,6 +53,15 @@ public class Checkout {
     public void can_select_required_size() {
 
     }
+
+    @Then("user can select the colour")
+    public void user_can_select_the_colour() throws InterruptedException {
+        Thread.sleep(1000);
+        WebElement colour= driver.findElement(By.xpath("//*[@id=\"app\"]/main/div/div[1]/div[3]/div[3]/div/div[2]"));
+        colour.click();
+    }
+
+
     @Then("Can add to shopping bag")
     public void can_add_to_shopping_bag() throws InterruptedException {
         Thread.sleep(3000);

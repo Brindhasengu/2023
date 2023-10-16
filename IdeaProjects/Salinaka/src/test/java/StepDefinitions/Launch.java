@@ -18,6 +18,7 @@ public class Launch {
     public void user_enters_url() {
         driver = new ChromeDriver();
         driver.get("https://salinaka-ecommerce.web.app/");
+        driver.manage().window().maximize();
 
     }
     @Then("verify the title of window")

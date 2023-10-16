@@ -53,6 +53,9 @@ public class Signup {
     public void the_user_is_in_sign_up_page() throws InterruptedException {
         driver = new ChromeDriver();
         driver.get("https://salinaka-ecommerce.web.app/");
+
+        driver.manage().window().maximize();
+
         WebElement signupButton = driver.findElement(By.xpath("//*[@id=\"app\"]/nav/ul[2]/li[2]/a[1]"));
         signupButton.click();
         Thread.sleep(3000);

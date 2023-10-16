@@ -4,6 +4,7 @@ Feature: user can able to checkout purchased item
     Given The user has logged in
     Then  Can select an item to see detail
     Then  Can select required size
+    Then  user can select the colour
     Then  Can add to shopping bag
     And user can able to view the bag
     Then  Can checkout the item
