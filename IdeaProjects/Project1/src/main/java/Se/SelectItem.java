@@ -16,10 +16,10 @@ public class SelectItem
         Thread.sleep(3000);
         //click x mark
         WebElement popup = driver.findElement(By.xpath("//*[@id=\"sgpb-popup-dialog-main-div-wrapper\"]/div/img"));
-    popup.click();
+    popup.searchbox.sendKeys("Fresh Fruits");click();
     //
         WebElement searchbox= driver.findElement(By.className( "aws-search-field"));
-        searchbox.sendKeys("Fresh Fruits");
+
 
         //click list of item
         Thread.sleep(3000);

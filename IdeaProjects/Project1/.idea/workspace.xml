@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Alert.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Se/Proj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/Test1Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/Alert1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/Alert2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/AnnaExcelreading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ExcelReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/ImplicitWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/KeyboardActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MouseAct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyAlert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyContactForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyLounch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/MyNext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium23/NewAi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Se/SelectItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Se/SelectItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,16 +530,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/Selenium23/MouseAct.java</url>
           <line>23</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Se/SelectItem.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Se/SelectItem.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
