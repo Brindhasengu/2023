@@ -24,6 +24,7 @@ public class Checkout {
     public void the_user_has_logged_in() throws InterruptedException {
         driver=new ChromeDriver();
         driver.get("https://salinaka-ecommerce.web.app/");
+        driver.manage().window().maximize();
         Thread.sleep(3000);
         WebElement signinButton = driver.findElement(By.xpath("//*[@id=\"app\"]/nav/ul[2]/li[2]/a[2]"));
         signinButton.click();
