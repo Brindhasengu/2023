@@ -65,7 +65,20 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test1Runner">
+  <component name="RunManager" selected="Application.SelectItem">
+    <configuration name="Alert1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.Alert1" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
@@ -73,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Se.Proj" />
+    <configuration name="SelectItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Se.SelectItem" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
@@ -94,25 +107,6 @@
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: Test1" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: user check functionality of application" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/Test1.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Project1" />
-      <option name="NAME_FILTER" value="^user check functionality of application$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user check functionality of application$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user check functionality of application" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,19 +164,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.Proj" />
-      <item itemvalue="Cucumber Java.Scenario: user check functionality of application" />
+      <item itemvalue="Application.Alert1" />
+      <item itemvalue="Application.SelectItem" />
       <item itemvalue="Cucumber Java.Feature: Test1 (2)" />
       <item itemvalue="TestNG.Test1Runner" />
       <item itemvalue="TestNG.Test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectItem" />
+        <item itemvalue="Application.Alert1" />
         <item itemvalue="TestNG.Test1Runner" />
         <item itemvalue="TestNG.Test1" />
         <item itemvalue="Cucumber Java.Feature: Test1 (2)" />
-        <item itemvalue="Cucumber Java.Scenario: user check functionality of application" />
-        <item itemvalue="Application.Proj" />
       </list>
     </recent_temporary>
   </component>
