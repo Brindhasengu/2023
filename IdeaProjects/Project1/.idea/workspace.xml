@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fead385-4a9b-4307-a48e-a41161e76ed5" name="Changes" comment="Abstra.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmployeeRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium23/IsDisplayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium23/Navigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium23/TestNgSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium23/wait2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationOPen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2TRcmnLbfggHM1DRVKiLpKEfQOA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,13 +52,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
+  &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Brindha/Repos/2023/IdeaProjects/Se/IdeaProjects/Project1&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
-    }
-    }</component>
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main\java\org\example" />
@@ -60,49 +68,10 @@
       <recent name="C:\Brindha\Repos\2023\IdeaProjects\Project1\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Employee">
-    <configuration name="Abstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Abstra" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Navigation">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Array1" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArrayList" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ExceptH" />
+    <configuration name="IsDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.IsDisplayed" />
       <module name="Project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Selenium23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,21 +102,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Navigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.Navigation" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wait2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium23.wait2" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgSample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium23" />
+      <option name="MAIN_CLASS_NAME" value="Selenium23.TestNgSample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="Project1" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNgSample" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.IsDisplayed" />
+      <item itemvalue="Application.Navigation" />
+      <item itemvalue="Application.wait2" />
       <item itemvalue="Application.Employee" />
-      <item itemvalue="Application.Array1" />
-      <item itemvalue="Application.ArrayList" />
-      <item itemvalue="Application.Abstra" />
-      <item itemvalue="Application.ExceptH" />
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.TestNgSample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Navigation" />
+        <item itemvalue="Application.IsDisplayed" />
+        <item itemvalue="Application.wait2" />
+        <item itemvalue="TestNG.TestNgSample" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.ArrayList" />
-        <item itemvalue="Application.Array1" />
-        <item itemvalue="Application.Abstra" />
-        <item itemvalue="Application.ExceptH" />
       </list>
     </recent_temporary>
   </component>
