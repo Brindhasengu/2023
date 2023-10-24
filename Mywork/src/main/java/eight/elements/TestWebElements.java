@@ -13,12 +13,13 @@ public class TestWebElements {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","c:\\brindha\\Chrome Driver\\ChromeDriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Brindha\\Chrome Driver");
 		WebDriver driver=new ChromeDriver();
 
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.bbc.co.uk/");
+		/*
 		WebElement signinButton = driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[1]/li[1]/a"));
 		//click the login button
 
@@ -47,6 +48,7 @@ public class TestWebElements {
 		weather.click();
 		
 		driver.quit();
+		*/
 	}
 
 }
