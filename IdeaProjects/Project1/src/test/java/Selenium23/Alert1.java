@@ -3,10 +3,16 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Alert1 {
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver = new ChromeDriver(); driver.get("https://www.browserstack.com/users/sign_up");
+        ChromeOptions options = new ChromeOptions();
+        options.setCapability("browserVersion", "116.0.5845.111");
+
+        WebDriver driver = new ChromeDriver(options);
+        driver.get("https://www.browserstack.com/users/sign_up");
 
         driver.findElement(By.id("user_full_name")).sendKeys("username");
         driver.findElement(By.id("user_email_login")).sendKeys("username.xyz.net");
