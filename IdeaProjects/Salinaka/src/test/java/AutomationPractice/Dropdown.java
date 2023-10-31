@@ -6,31 +6,40 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Dropdown {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();
 
         driver.get("https://www.bbc.co.uk/");
         driver.manage().window().maximize();
 
-        WebElement youracc = driver.findElement(By.className("ssrcss-qgttmg-AccountText e1gviwgp4"));
-        youracc.click();
+        Thread.sleep(3000);
+        WebElement signin= driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[1]/li[1]/a/span[2]"));
+      signin.click();
 
 
         WebElement email = driver.findElement(By.id("user-identifier-input"));
+         email.sendKeys("brindhasengu@gmail.com");
+
         WebElement next = driver.findElement(By.id("submit-button"));
         next.click();
 
+
 //Get the Web Element corresponding to the Password Field
-        WebElement password = driver.findElement(By.id("user_password"));
-
+        WebElement password = driver.findElement(By.id("password-input"));
+        password.sendKeys("Anga1234!");
+Thread.sleep(3000);
 //Find the Sign me in button
-        WebElement login = driver.findElement(By.id("user_submit"));
-
+        WebElement done = driver.findElement(By.id("submit-button"));
+        done.click();
+/*
         email.sendKeys("brindhasengu@gmail.com");
         password.sendKeys("Anga1234!");
 
         login.click();
         System.out.println("Signed in with Click");
         driver.close();
+
+
+ */
     }
 }
