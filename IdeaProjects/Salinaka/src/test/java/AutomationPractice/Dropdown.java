@@ -13,7 +13,8 @@ public class Dropdown {
         driver.manage().window().maximize();
 
         Thread.sleep(3000);
-        WebElement signin= driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[1]/li[1]/a/span[2]"));
+        WebElement signin= driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[1]/li[1]/a"));
+
       signin.click();
 
 
@@ -31,6 +32,8 @@ Thread.sleep(3000);
 //Find the Sign me in button
         WebElement done = driver.findElement(By.id("submit-button"));
         done.click();
+        Thread.sleep(3000);
+
 /*
         email.sendKeys("brindhasengu@gmail.com");
         password.sendKeys("Anga1234!");
@@ -39,7 +42,15 @@ Thread.sleep(3000);
         System.out.println("Signed in with Click");
         driver.close();
 
+         */
 
- */
+        WebElement weather = driver.findElement(By.xpath("//*[@id=\"header-content\"]/nav/div[1]/div/div[2]/ul[2]/li[4]/a/span"));
+        weather.click();
+
+
+
+
+
+
     }
 }
