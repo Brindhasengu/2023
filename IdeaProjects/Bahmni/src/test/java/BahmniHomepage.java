@@ -9,5 +9,6 @@ public class BahmniHomepage
         WebDriver driver=new ChromeDriver();
         driver.get("https://demo-lite.mybahmni.in/");
         driver.manage().window().maximize();
+
     }
 }

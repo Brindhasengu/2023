@@ -19,7 +19,7 @@ public class LaunchBrowser {
         Acceptall.click();
 
 
-     driver.navigate().to ("https://www.nalli.com/");
+     driver.navigate().to ("https://www.vikatan.com/");
 
     }
 }
