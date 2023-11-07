@@ -3,7 +3,7 @@ package AutomationPractice;
 public class PCFor {
     public static void main(String[] args) {
 
-                // Outer loop.
+               /* // Outer loop.
                 for (int i = 1; i <= 2; i++) {
                     System.out.println("Outer: " + i); // Executes 2 times
 
@@ -14,6 +14,15 @@ public class PCFor {
                 }
             }
         }
-
+        
+                */
+for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){
+        System.out.print("* ");
+        }
+        System.out.println();//new line
+        }
+        }
+        }
 
 
