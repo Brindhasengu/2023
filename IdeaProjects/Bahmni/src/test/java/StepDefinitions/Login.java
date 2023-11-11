@@ -12,12 +12,13 @@ public class Login {
         driver.get("https://dev.lite.mybahmni.in/");
         driver.manage().window().maximize();
 
-        throw new io.cucumber.java.PendingException();
+
     }
 
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
         // Write code here that turns the phrase above into concrete actions
+
         throw new io.cucumber.java.PendingException();
     }
 
