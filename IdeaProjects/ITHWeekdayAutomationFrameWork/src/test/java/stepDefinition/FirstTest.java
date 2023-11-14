@@ -25,6 +25,8 @@ ClinicalManagementPage clinicalManagementPage;
      //CM page
     clinicalManagementPage=new ClinicalManagementPage(driverManagement.DriverManager.getDriver());
     clinicalManagementPage.gotoClinicalManagementPage();
+
+
  }
 
 

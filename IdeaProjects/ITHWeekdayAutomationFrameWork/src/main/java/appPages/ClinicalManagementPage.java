@@ -33,5 +33,39 @@ public class ClinicalManagementPage {
         WebElement inputBox = driver.findElement( By.id("patientIdentifier"));
         Assert.assertNotNull(inputBox);
 
+
+        //click all Tab
+        allTab.click();
+
+
+        // check that we have  Searchbox
+        //WebElement searchBox = driver.findElement( By.xpath("//button[@type="submit"and text()="search"]"));
+        WebElement searchButton = driver.findElement( By.xpath("//*[@id=\"view-content\"]/div[2]/div/div[2]/span/form/div[2]/button"));
+        Assert.assertNotNull(searchButton);
+//Click all tab then we have to click inputBox
+        WebElement allInputBox = driver.findElement( By.id("patientIdentifier"));
+
+        //find patient by id
+       allInputBox.sendKeys("101");
+        searchButton.click();
+       allInputBox.clear();
+
+        //Click all tab then we have to click inputBox
+
+        //find patient by Name
+        allInputBox.sendKeys("Vijay");
+        searchButton.click();
+        Thread.sleep(3000);
+
+        //patient navigate Their page
+
+WebElement patientCard =driver.findElement(By.xpath("//div[@class='patient-name' and text()='Vijay Varma']"));
+patientCard.click();
+
+        // Get the patient count
+        // Check that we have an "Active" tab
+        WebElement activeCount = driver.findElement( By.xpath("//*[@id=\"view-content\"]/div[2]/div/div[1]/div/ng-transclude/ul/li[1]/a/span[2]"));
+        Assert.assertEquals(activeCount.getText(), "(1)");
+
     }
 }
