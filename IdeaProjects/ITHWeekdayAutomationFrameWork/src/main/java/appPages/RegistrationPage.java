@@ -49,14 +49,42 @@ public class RegistrationPage {
 
         // Create new patient
         CreateNew.click();
-
-        for(WebElement ele:elements){
-            if(ele.get()name:textcontant).Contains("patient Name")){
-                ele.click();
-            }
-        }
+Thread.sleep(3000);
+        WebElement patientIdentifierDropDown = driver.findElement( By.id("identifierPrefix"));
+        Assert.assertNotNull(patientIdentifierDropDown);
 
 
+        WebElement patientIdentifierText= driver.findElement( By.xpath ("//label[@class='control-label' and @for = 'patientID']"));
+        Assert.assertEquals(patientIdentifierText.getText(),"Patient Identifier");
 
+
+        WebElement patientNameText= driver.findElement( By.xpath ("//label[@for='patientName']"));
+        Assert.assertEquals(patientNameText.getText(),"Patient Name*");
+
+        WebElement patientMiddleNameText = driver.findElement( By.id("middleName"));
+        Assert.assertNotNull(patientMiddleNameText);
+
+
+        WebElement patientLastNameText = driver.findElement( By.id("familyName"));
+        Assert.assertNotNull(patientLastNameText);
+
+
+        //Gender text
+        WebElement genderText = driver.findElement( By.xpath("//label[@for='gender']"));
+        Assert.assertEquals(genderText.getText(),"Gender *");
+
+
+        WebElement genderDropDown = driver.findElement( By.id("gender"));
+        Assert.assertNotNull(genderDropDown);
+
+
+        WebElement AgeText = driver.findElement( By.xpath("//label[@for='ageYears']"));
+        Assert.assertEquals(AgeText.getText(),"Age*");
+Thread.sleep(3000);
+        WebElement yearsText = driver.findElement( By.xpath("//span[@class='add-on']"));
+        Assert.assertEquals(yearsText.getText(),"Years");
+
+        WebElement yearsDropDown = driver.findElement( By.id("ageYears"));
+        Assert.assertNotNull(yearsDropDown);
     }
 }
