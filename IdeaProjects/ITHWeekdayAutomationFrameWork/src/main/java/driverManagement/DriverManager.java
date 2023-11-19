@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import java.time.Duration;
+
 public class DriverManager {
     public static ThreadLocal<WebDriver> localDriver = new ThreadLocal<WebDriver>();
 
@@ -27,6 +29,7 @@ public class DriverManager {
         driver.get("https://demo-lite.mybahmni.in/");
         driver.manage().window().maximize();
         setDriver(driver);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
     }
 }

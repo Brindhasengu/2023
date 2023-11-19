@@ -14,10 +14,10 @@ public class LoginPage {
 
         }
         public  void loginToBahmni(String username,String password) throws InterruptedException {
-            Thread.sleep(3000);
+            //Thread.sleep(3000);
             driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/div/a")).click();
 
-            Thread.sleep(3000);
+            //Thread.sleep(3000);
             driver.findElement(By.id("username")).sendKeys("superman");
             driver.findElement(By.id("password")).sendKeys("Admin123");
 

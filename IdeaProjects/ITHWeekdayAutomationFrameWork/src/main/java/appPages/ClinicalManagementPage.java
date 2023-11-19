@@ -12,9 +12,9 @@ public class ClinicalManagementPage {
 
     }
     public  void gotoClinicalManagementPage() throws InterruptedException {
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
         driver.findElement(By.id("bahmni.clinical")).click();
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
 
         // Check that we have a home button
@@ -55,7 +55,7 @@ public class ClinicalManagementPage {
         //find patient by Name
         allInputBox.sendKeys("Vijay");
         searchButton.click();
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
         //patient navigate Their page
 
