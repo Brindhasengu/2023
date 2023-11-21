@@ -105,13 +105,12 @@ public class RegistrationPage {
 
         //CALL Create new patient
         CreateAndTestNewPatient("Sri","Ram","jayaram","Male","20","5","13");
-
         //Create new patient
         CreateAndTestNewPatient("kannan","yasodha","Krishna","Male","20","5","13");
 
     }
 
-    private void CreateAndTestNewPatient(String firstName,String middleName,String familyName,String gender,String ageYears, String ageMonth,String ageDays  ) {
+    private void CreateAndTestNewPatient(String firstName,String middleName,String familyName,String gender,String ageYears, String ageMonth,String ageDays  ) throws InterruptedException {
        /* String firstName = "Sri";
        // String middleName = "Sai";
        // String familyName = "Krishna";
@@ -123,6 +122,7 @@ public class RegistrationPage {
 */
         WebElement CreateNew = driver.findElement(By.xpath("//span[@class='nav-link' and contains(text(),'Create ') ] "));
         CreateNew.click();
+        Thread.sleep(2000);
         // Enter first name
         driver.findElement(By.id("givenName")).sendKeys(firstName);
         driver.findElement(By.id("middleName")).sendKeys(middleName);
