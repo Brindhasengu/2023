@@ -3,16 +3,20 @@ package stepDefinition;
 import appPages.ClinicalManagementPage;
 import appPages.LoginPage;
 import appPages.RegistrationPage;
+import appPages.Reports;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
 import java.sql.DriverManager;
 
 public class FirstTest {
 LoginPage Lpage;
 //ClinicalManagementPage clinicalManagementPage;
 
-    RegistrationPage registrationPage;
+ //   RegistrationPage registrationPage;
+
+
+    //reports page
+    Reports reports;
  @Test
  public  void test() throws InterruptedException {
 
@@ -29,8 +33,19 @@ LoginPage Lpage;
 
 
 //Registration Page
-     registrationPage=new RegistrationPage(driverManagement.DriverManager.getDriver());
-    registrationPage.gotoRegistrationPage();
+ //    registrationPage=new RegistrationPage(driverManagement.DriverManager.getDriver());
+  //  registrationPage.gotoRegistrationPage();
+
+  //Reports
+  reports=new Reports(driverManagement.DriverManager.getDriver());
+  reports.gotoReports();
+
+
+
+
+
+
+
  }
 
 
