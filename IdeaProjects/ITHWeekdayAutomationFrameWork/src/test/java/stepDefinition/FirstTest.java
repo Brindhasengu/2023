@@ -12,11 +12,11 @@ public class FirstTest {
 LoginPage Lpage;
 //ClinicalManagementPage clinicalManagementPage;
 
- //   RegistrationPage registrationPage;
+    RegistrationPage registrationPage;
 
 
     //reports page
-    Reports reports;
+   // Reports reports;
  @Test
  public  void test() throws InterruptedException {
 
@@ -33,12 +33,12 @@ LoginPage Lpage;
 
 
 //Registration Page
- //    registrationPage=new RegistrationPage(driverManagement.DriverManager.getDriver());
-  //  registrationPage.gotoRegistrationPage();
+    registrationPage=new RegistrationPage(driverManagement.DriverManager.getDriver());
+    registrationPage.gotoRegistrationPage();
 
   //Reports
-  reports=new Reports(driverManagement.DriverManager.getDriver());
-  reports.gotoReports();
+  //reports=new Reports(driverManagement.DriverManager.getDriver());
+  //reports.gotoReports();
 
 
 
