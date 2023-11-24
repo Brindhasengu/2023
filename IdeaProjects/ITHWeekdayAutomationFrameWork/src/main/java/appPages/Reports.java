@@ -24,6 +24,11 @@ public class Reports {
 
 
 //WebElement reportsText = driver.findElement(By.xpath());
+      //  Assert.assertNotNull(Reports);
+
+      //WebElement myreportsText = driver.findElement(By.xpath());
+        //  Assert.assertNotNull(MY Reports);
+
 
     }
 }
