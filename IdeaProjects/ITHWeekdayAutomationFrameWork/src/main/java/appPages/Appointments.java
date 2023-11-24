@@ -38,6 +38,7 @@ manageAppointments.click();
         WebElement Appointmentslist = driver.findElement(By.xpath("//a[text()='Appointments List'] "));
         Assert.assertNotNull("Appointmentslist");
 
+summary.click();
 
         Appointmentslist.click();
 
