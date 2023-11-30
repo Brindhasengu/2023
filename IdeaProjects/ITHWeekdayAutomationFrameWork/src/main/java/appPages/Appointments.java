@@ -42,5 +42,18 @@ summary.click();
 
         Appointmentslist.click();
 
+
+
+        WebElement addNewAppointments= driver.findElement(By.xpath("//a[contains(text(),'Add new appointment')] "));
+        Assert.assertNotNull("AddNewAppointments");
+
+      addNewAppointments.click();
+
+
+        WebElement patientNameOrId= driver.findElement(By.id("react-select-2-input"));
+        Assert.assertNotNull("patientNameOrId");
+
+
+        patientNameOrId. sendKeys("GAN10200");
     }
 }

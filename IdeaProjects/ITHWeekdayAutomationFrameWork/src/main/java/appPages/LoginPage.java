@@ -26,6 +26,9 @@ public class LoginPage {
 
             driver.findElement( By.xpath("//button[@type='submit' and text()='Login']")).click();
 
+
+
+
         }
 }
 
