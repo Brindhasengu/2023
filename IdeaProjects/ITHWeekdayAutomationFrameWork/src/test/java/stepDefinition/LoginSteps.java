@@ -14,9 +14,6 @@ public class LoginSteps {
     public void user_launch_the_application() {
         driverManagement.DriverManager dm = new driverManagement.DriverManager();
         dm.initBrowser("Chrome");
-
-        //WebDriverManager.chromedriver().setup();
-        //setDriver(new ChromeDriver());
         getDriver().get("https://demo-lite.mybahmni.in/");
         getDriver().manage().window().maximize();
     }
