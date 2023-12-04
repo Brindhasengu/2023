@@ -123,7 +123,7 @@ public class RegistrationPage {
         WebElement CreateNew = driver.findElement(By.xpath("//span[@class='nav-link' and contains(text(),'Create ') ] "));
         CreateNew.click();
         Thread.sleep(2000);
-        // Enter first name
+        // Enter Pt name
         driver.findElement(By.id("givenName")).sendKeys(firstName);
         driver.findElement(By.id("middleName")).sendKeys(middleName);
         driver.findElement(By.id("familyName")).sendKeys(familyName);
