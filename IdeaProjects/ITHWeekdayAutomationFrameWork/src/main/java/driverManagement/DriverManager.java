@@ -33,7 +33,7 @@ public class DriverManager {
         }
 
        // WebDriver getDriver;
-        getDriver().get("https://demo-lite.mybahmni.in/");
+        getDriver().get("https://demo-lite.mybahmni.in/bahmni/home/index.html#/login");
       getDriver().manage().window().maximize();
       //Del cookies
 getDriver().manage().deleteAllCookies();

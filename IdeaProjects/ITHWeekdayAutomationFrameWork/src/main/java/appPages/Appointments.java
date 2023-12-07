@@ -24,19 +24,19 @@ public class Appointments {
 
 
 WebElement manageAppointments = driver.findElement(By.xpath("//span[@Class='ng-binding' and text()='Manage Appointments'  ]"));
-         Assert.assertNotNull("ManageAppointments");
+         Assert.assertNotNull(manageAppointments);
 
       WebElement adminText = driver.findElement(By.xpath("//span[@Class='ng-binding' and text()='Admin']"));
-        Assert.assertNotNull("Admin");
+        Assert.assertNotNull(adminText);
 
 manageAppointments.click();
 
 //text
         WebElement summary = driver.findElement(By.xpath("//a[text()='Summary'] "));
-        Assert.assertNotNull("summary");
+        Assert.assertNotNull(summary);
 
         WebElement Appointmentslist = driver.findElement(By.xpath("//a[text()='Appointments List'] "));
-        Assert.assertNotNull("Appointmentslist");
+        Assert.assertNotNull(Appointmentslist);
 
 summary.click();
 
@@ -45,15 +45,21 @@ summary.click();
 
 
         WebElement addNewAppointments= driver.findElement(By.xpath("//a[contains(text(),'Add new appointment')] "));
-        Assert.assertNotNull("AddNewAppointments");
+        Assert.assertNotNull(addNewAppointments);
 
       addNewAppointments.click();
 
 
         WebElement patientNameOrId= driver.findElement(By.id("react-select-2-input"));
-        Assert.assertNotNull("patientNameOrId");
+        Assert.assertNotNull(patientNameOrId);
 
 
-        patientNameOrId. sendKeys("GAN10200");
+        patientNameOrId. sendKeys("GAN10");
+
+        driver.findElement(By.id("react-select-2-option-0")).click();
+
+        //specialityDropdown
+        driver.findElement(By.className("react-select__value-container react-select__value-container--has-value css-1hwfws3")).click();
+
     }
 }

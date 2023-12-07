@@ -19,62 +19,50 @@ public class RegistrationPage {
     }
 
     public void gotoRegistrationPage() throws InterruptedException {
-        //Thread.sleep(3000);
+
         driver.findElement(By.id("bahmni.registration")).click();
-        //Thread.sleep(3000);
-
-
-        WebElement homeButton = driver.findElement( By.className("back-btn"));
+        WebElement homeButton = driver.findElement(By.className("back-btn"));
         Assert.assertNotNull(homeButton);
 
 
-        WebElement SearchTab = driver.findElement( By.xpath("//span[@class='nav-link' and text()='S']"));
+        WebElement SearchTab = driver.findElement(By.xpath("//span[@class='nav-link' and text()='S']"));
         Assert.assertEquals(SearchTab.getText(), "Search");
+    }
 
-
-
-
-       // WebElement CreateNew = driver.findElement( By.xpath("//span[@class='nav-link' and text()='Create']"));
-       // Assert.assertEquals(CreateNew.getText(), "Create New");
+    // Creates new patient and checks all the form fields are correct
+    public void createNewPatient() throws InterruptedException {
 
         WebElement CreateNew = driver.findElement(By.xpath("//*[@id=\"view-content\"]/div[1]/header/ul/li[2]/a/span"));
         Assert.assertEquals(CreateNew.getText(), "Create New");
 
 
-        WebElement IdBox = driver.findElement( By.id("registrationNumber"));
+        WebElement IdBox = driver.findElement(By.id("registrationNumber"));
         Assert.assertNotNull(IdBox);
 
 
-        WebElement patientname= driver.findElement( By.id("name"));
+        WebElement patientname = driver.findElement(By.id("name"));
         Assert.assertNotNull(patientname);
 
 
-        WebElement phoneNumber= driver.findElement( By.id("customAttribute"));
+        WebElement phoneNumber = driver.findElement(By.id("customAttribute"));
         Assert.assertNotNull(phoneNumber);
 
         // Create new patient
         CreateNew.click();
 
-        WebElement patientIdentifierDropDown = driver.findElement( By.id("identifierPrefix"));
+
+        WebElement patientIdentifierDropDown = driver.findElement(By.id("identifierPrefix"));
         Assert.assertNotNull(patientIdentifierDropDown);
 
-        WebElement patientIdentifierText= driver.findElement( By.xpath ("//label[@class='control-label' and @for = 'patientID']"));
-        Assert.assertEquals(patientIdentifierText.getText(),"Patient Identifier");
+        WebElement patientIdentifierText = driver.findElement(By.xpath("//label[@class='control-label' and @for = 'patientID']"));
+        Assert.assertEquals(patientIdentifierText.getText(), "Patient Identifier");
 
 
-        WebElement patientNameText= driver.findElement( By.xpath ("//label[@for='patientName']"));
-        Assert.assertEquals(patientNameText.getText(),"Patient Name*");
+        WebElement patientNameText = driver.findElement(By.xpath("//label[@for='patientName']"));
+        Assert.assertEquals(patientNameText.getText(), "Patient Name*");
 
-/*
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(300));
-        wait.until(d -> {
-            System.out.println("Checking......");
-            String enteredName = driver.findElement(By.id("givenName")).getAttribute("value");
-            return enteredName.equals("Peter");
-        });
 
-        driver.findElement(By.id("givenName")).sendKeys(" Working");
-*/
+
         WebElement patientMiddleNameText = driver.findElement( By.id("middleName"));
         Assert.assertNotNull(patientMiddleNameText);
 
@@ -100,26 +88,10 @@ public class RegistrationPage {
 
         WebElement yearsDropDown = driver.findElement( By.id("ageYears"));
         Assert.assertNotNull(yearsDropDown);
-
-
-
-        //CALL Create new patient
-        CreateAndTestNewPatient("Sri","Ram","jayaram","Male","20","5","13");
-        //Create new patient
-        CreateAndTestNewPatient("kannan","yasodha","Krishna","Male","20","5","13");
-
     }
 
-    private void CreateAndTestNewPatient(String firstName,String middleName,String familyName,String gender,String ageYears, String ageMonth,String ageDays  ) throws InterruptedException {
-       /* String firstName = "Sri";
-       // String middleName = "Sai";
-       // String familyName = "Krishna";
+    public void CreateAndTestNewPatient(String firstName,String middleName,String familyName,String gender,String ageYears, String ageMonth,String ageDays  ) throws InterruptedException {
 
-        String gender = "Male";
-        String ageYears = "20";
-        String ageMonth = "5";
-        String ageDays = "12";
-*/
         WebElement CreateNew = driver.findElement(By.xpath("//span[@class='nav-link' and contains(text(),'Create ') ] "));
         CreateNew.click();
         Thread.sleep(2000);
@@ -145,11 +117,5 @@ public class RegistrationPage {
                          return !newPatientId.isBlank();
         });
 
-        //System.out.println(newPatientId.get());
-       // System.out.println("Something here");
-
-        // Search patient by firstName
-        // Open the patient
-        // Check values are matching with entered values
     }
 }
