@@ -7,4 +7,4 @@ Feature: To validate the patient registration
     Then user clicks on create new button
     Then user enter data as below
         | John | Peter | Male | 35 |
-       
+
