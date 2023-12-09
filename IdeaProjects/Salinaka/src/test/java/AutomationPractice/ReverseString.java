@@ -3,7 +3,7 @@ package AutomationPractice;
 public class ReverseString {
 
         public static void main(String[] args) {
-            String originalStr = "Hello";
+            String originalStr = "WELCOME";
             String reversedStr = "";
             System.out.println("Original string: " + originalStr);
 
