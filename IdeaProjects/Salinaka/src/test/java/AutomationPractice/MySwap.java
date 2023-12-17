@@ -8,9 +8,13 @@ public class MySwap {
         System.out.println("x ="+ x);
         System.out.println("y =" + y);
         //Swap
+        /*
         int temp = x;
         x = y;
       y = temp;
+
+         */
+        y = x + y - (x = y);
         System.out.println("After swap");
         System.out.println("x ="+x );
         System.out.println("y ="+y);
