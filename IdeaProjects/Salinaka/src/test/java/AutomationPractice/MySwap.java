@@ -14,6 +14,7 @@ public class MySwap {
       y = temp;
 
          */
+        //with out 3 rd variable
         y = x + y - (x = y);
         System.out.println("After swap");
         System.out.println("x ="+x );
