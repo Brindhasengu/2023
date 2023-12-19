@@ -1,6 +1,7 @@
 package AutomationPractice;
 
-public class MyConstructorChain {
+public class MyConstructorChain
+ {
     MyConstructorChain() {
 
         this("From default Construct");
